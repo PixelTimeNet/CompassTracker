@@ -1,0 +1,25 @@
+# 指南针跟踪器 CompassTracker 插件
+# 作者：Month_Light
+
+# 插件版本号
+version: 1.0
+
+# 插件的前缀
+Prefix: '&f[&a指南针跟踪器&f] '
+
+# 插件消息配置
+Messages:
+    # 注意可以修改文本，但是不要修改里面的格式符 %1$s，%2$s 等
+    NoPermission: '&c你没有使用这个命令的权限.'
+    ErrorCommandArgs: '&c未知的命令参数，请使用: %1$s'
+    CompassTrackerChatReload: '&a配置文件已经重新载入...'
+
+# 指南针跟踪器的更新周期（Tick: 1秒 = 20Tick）
+UpdatePeriod: 20
+
+# 指南针跟踪器交互 Bar 消息
+# 可用变量: %target%, %distance%
+# 变量解释:
+#   %target%: 目标玩家名
+#   %distance%: 目标玩家与当前玩家的距离
+ActionBarMessage: '玩家: %target% 距离: %distance%'
